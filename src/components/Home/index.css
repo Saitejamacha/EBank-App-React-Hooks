@@ -1,0 +1,69 @@
+.AppContainer {
+  width: 100vw;
+  height: 100vh;
+  background-color: #152850;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .AppContainer {
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+.head {
+  color: white;
+  font-size: 35px;
+}
+.card-img {
+  width: 85vw;
+  height: 35vh;
+  border-radius: 15px;
+  /* background-image: url('https://assets.ccbp.in/frontend/hooks/credit-card-bg.png'); */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  align-self: center;
+}
+@media (min-width: 768px) {
+  .card-img {
+    width: 35vw;
+    height: 40vh;
+  }
+}
+
+.nav-con {
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+}
+.logo {
+  width: 120px;
+  height: 50px;
+}
+
+button {
+  width: 90px;
+  height: 40px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+}
+
+h1 {
+  color: white;
+  font-size: 35px;
+}
+
+.content-con {
+  margin-top: -100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
